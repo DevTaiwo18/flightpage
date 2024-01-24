@@ -1,0 +1,839 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    list-style-type: none;
+    font-family: Averta, "Helvetica Neue", Helvetica, Arial, sans-serif;;
+  }
+  .container{
+    width: 100%;
+    background-color: #095DCA;
+    padding: 13px 19px;
+    align-items: center;
+    position: sticky;
+}
+
+.contain{
+    display: flex;
+    align-items: center;
+    padding: 5px 6px;
+    gap: 2em;
+}
+h1{
+    font-weight: 700;
+    font-family: Averta, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: italic;
+    color: white;
+}
+.first li{
+    color: white;
+    font-family: Averta, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight:700;
+}
+.first{
+    display: flex;
+    gap: 3rem;
+}
+  
+  .header {
+    padding: 1em 8em;
+    line-height: 2;
+  }
+  .header ul {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    list-style-type: none;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    color: #000000;
+    font-family: "Rubik", sans-serif;
+  }
+  .header ul li{
+    color: #000000;
+  }
+  .header h2 {
+    font-size: 23px;
+    font-weight: 700;
+    font-style: normal;
+    color: #000000;
+    font-family: "Rubik", sans-serif;
+    padding-top: 1rem;
+  }
+  
+  section {
+    padding: 0 8em;
+    display: flex;
+    gap: 3em;
+    padding-top: -1em;
+  }
+  section .sec-left {
+    width: 35%;
+  }
+  section .sec-left .sec-left-introimg {
+    width: 100%;
+    height: 40vh;
+    margin: auto;
+  }
+  section .sec-left .impotp {
+    font-weight: 700;
+    font-style: normal;
+    color: #000000;
+    font-size: 16px;
+    font-style: normal;
+  }
+  section .sec-left ul {
+    margin: 0.5em 0 1.5em;
+    display: block;
+    text-align: justify;
+  }
+  .border{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  section .sec-left ul li {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+  }
+  section .sec-left ul li p {
+    color: blue;
+    line-height: 1.8;
+    font-style: normal;
+  }
+  section .sec-left ul li:nth-of-type(1) p {
+    color: red;
+    font-style: normal;
+  }
+  section .sec-left .Share {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 2;
+    padding: 0 2em 0 0;
+  }
+  section .sec-left .Share p {
+    font-weight: 700;
+    font-style: normal;
+    color: #000000;
+    font-size: 16px;
+    font-style: normal;
+  }
+  section .sec-left .Share .share-icons {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+  }
+  section .sec-left .sec-left-bottom {
+    padding: 1.3em 0 1em;
+    line-height: 2.2;
+  }
+  section .sec-left .sec-left-bottom button {
+    padding: 6px 15px;
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    border: 2px solid blue;
+  }
+  .sec-left-bottom{
+    border: 1px solid black;
+    padding: 5px 8px !important;
+    border-radius: 5px;
+  }
+  section .sec-right {
+    width: 65%;
+    line-height: 2;
+  }
+  section .sec-right .sec-right-one {
+    border: 2px solid rgb(248, 142, 158);
+    width: 100%;
+    padding: 1em 1em 1.5em 1em;
+    line-height: 2.2;
+    background-color: rgb(255, 214, 220) !important;
+  }
+  section .sec-right .sec-right-one p {
+    font-size:13px !important;
+    font-weight: 700;
+    font-style: normal;
+    color: #000000;
+  }
+  section .sec-right .sec-right-one h6 {
+    font-size: 20px !important;
+    font-weight: 600;
+    font-style: normal;
+    color:rgb(173, 44, 113);
+  }
+  .circle{
+    height: 2em;
+    width: 2em;
+    border-radius: 50%;
+    border: 2px solid black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+  }
+  section .sec-right .sec-right-one .div11 {
+    padding: 0%;
+    border: none;
+    background-color: transparent;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  section .sec-right .sec-right-one .div11 p {
+    font-size: 15px;
+    font-weight: 600;
+  }
+  section .sec-right .sec-right-two {
+    width: 100%;
+    border: none;
+    background-color: #ffffff;
+    display: flex;
+    padding: 1em 0 1em 3em;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #disapper{
+    border: 1px solid black;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding: 0 30px 20px 30px;
+    border-radius:10px;
+  }
+  section .sec-right .sec-right-two .div22 {
+    display: flex !important;
+    align-items: center !important;
+    /* justify-content: space-around !important; */
+    gap:4em;
+  }
+ 
+  section .sec-right .sec-right-two .div22 div {
+    display: block;
+    text-align: center;
+    line-height: 2;
+  }
+
+  section .sec-right .sec-right-two .div22 div p {
+    color: darkblue;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+  }
+  #ticket{
+    color: darkblue;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    border: none;
+    background-color: transparent;
+  }
+  section .sec-right .sec-right-two div {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  section .sec-right .sec-right-two div p {
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+  }
+  section .sec-right .sec-right-three {
+    width: 100%;
+    border: none;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center !important;
+    justify-content: space-between;
+    padding: 0 2em;
+  }
+  section .sec-right .sec-right-three h2 {
+    color: #000000;
+    font-size: 24px;
+    font-weight: 700;
+    font-style: normal;
+  }
+  section .sec-right .sec-right-three div {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+  }
+  section .sec-right .sec-right-three div p {
+    color: darkblue;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+  }
+  section .sec-right .sec-right-four {
+    width: 100%;
+    background-color: #ffffff;
+    padding-top: 1em;
+  }
+  section .sec-right .sec-right-four .div33 {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    line-height: 1.5;
+    border: 1px solid black;
+    padding:1.5em 1em ;
+    border-radius:1px;
+  }
+  section .sec-right .sec-right-four .div33 div h6 {
+    font-size: 16px;
+    font-weight: bolder;
+    font-style: normal;
+    color: #000000;
+  }
+  section .sec-right .sec-right-four p {
+    font-size: 13px;
+    font-weight: 700;
+    font-style: normal;
+    color: #000000;
+  }
+  section .sec-right .sec-right-four p span {
+    color: darkblue;
+  }
+
+  #appaer{
+    display: none;
+    transition: 0.04s all ease;
+  }
+  .blue{
+    background-color: rgba(0, 0, 139, 0.926);
+    padding: 2em 3em;
+    margin-top:1.5em;
+  }
+  ol{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  li{
+    color: #ffffffe5;
+    font-weight: 600;
+    opacity: 1;
+  }
+  ol li:nth-child(2){
+    color: #ffffff7b;
+  }
+  .selct{
+    padding-top:1em;
+  }
+  #btn{
+    gap: 7em;
+    display: flex;
+  }
+  button{
+    margin-top: 1em;
+    padding: 0.8em 2.5em;
+    border: none;
+    background-color: transparent;
+    color:darkblue;
+    font-size: 16px;
+    font-weight:700;
+  }
+  button:hover{
+    background-color:silver;
+    border-radius: 5px;
+    transition: 0.3s all ease;
+  }
+  .lit{
+    display: flex;
+    gap:1.5em;
+    align-items: center;
+    margin-bottom: 1.5em;
+  }
+  .checkbox{
+    padding:2em;
+  }
+  h2{
+    font-size: 18px;
+    font-weight:600;
+  }
+  .list{
+    margin-top: 1em;
+  }
+
+  .con{
+    display: flex;
+    text-align: end;
+    gap: 3em;
+    align-items: center;
+    margin-bottom: 1em;
+    margin-left: 30em;
+  }
+  .con p {
+    color: darkblue;
+    font-size: 15px;
+    padding-top:1em;
+    font-weight: 500;
+  }
+  .con #cont-btn{
+    padding: 0.5em 2em;
+    border: none;
+    background-color:darkblue;
+    color:#ffffff;
+    font-size: 16px;
+    font-weight:700;
+    border-radius: 5px;
+  }
+  #twoaapaer{
+    display: none;
+    transition: 0.04s all ease;
+  }
+  .block{
+    display: flex;
+    align-items: center;
+    gap:8em;
+    padding-top: 1em;
+  }
+  .flex{
+    line-height:2.5;
+  }
+  .flex h2{
+    font-size: 16px;
+  }
+  .flex #name{
+    padding:1em  0.3em;
+    outline: none;
+    width: 150%;
+  }
+  .flex #email{
+    padding:1em 0.3em;
+    outline: none;
+    width: 150%;
+  }
+  .last #text{
+    width: 100%;
+    height: 15vh;
+    outline: none;
+  }
+  .last{
+    padding-bottom: 2em;
+  }
+
+  
+  @media (max-width: 1280px) {
+    section {
+      padding: 1em;
+    }
+    .con{
+      margin-left:25em;
+    }
+  }
+  @media (max-width: 1200px) {
+    .con{
+      margin-left:20em;
+    }
+    section .sec-right .sec-right-one p {
+      font-size: 18px;
+    }
+    section .sec-right .sec-right-one .div11 p {
+      font-size: 14px;
+      font-weight: 600;
+    }
+    section .sec-right .sec-right-two {
+      padding: 1em 0 1em 2em;
+    }
+    section .sec-right .sec-right-two .div22 div {
+      display: block;
+      text-align: center;
+      line-height: 2;
+    }
+    section .sec-right .sec-right-two .div22 div p {
+      font-size: 15px;
+    }
+    #ticket{
+      font-size: 15px;
+    }
+    section .sec-right .sec-right-two div p {
+      font-size: 14px;
+    }
+    section .sec-right .sec-right-three {
+      padding: 1em 1.5em;
+    }
+    section .sec-right .sec-right-three h2 {
+      font-size: 20px;
+    }
+    section .sec-right .sec-right-three div p {
+      font-size: 15px;
+    }
+    section .sec-right .sec-right-four .div33 div h6 {
+      font-size: 15px;
+    }
+    section .sec-right .sec-right-four .div33 div p {
+      font-size: 15px;
+    }
+    section .sec-right .sec-right-four p {
+      font-size: 14px;
+    }
+  }
+  @media (max-width: 1000px) {
+    .con{
+      margin-left:20em;
+    }
+    .header {
+      padding: 1em;
+      line-height: 2;
+    }
+    .header ul {
+      font-size: 15px;
+    }
+    .header h2 {
+      font-size: 20px;
+    }
+    section {
+      padding: 1em;
+      display: block;
+    }
+    section .sec-left {
+      width: 100%;
+      margin-bottom: 30px;
+    }
+    section .sec-left .sec-left-introimg {
+      width: 100%;
+      height: 40vh;
+      margin: auto;
+    }
+    section .sec-left .impotp {
+      font-weight: 700;
+      font-style: normal;
+      color: #000000;
+      font-size: 16px;
+      font-style: normal;
+    }
+    section .sec-left ul {
+      margin: 0.5em 0 1.5em;
+      display: block;
+    }
+    section .sec-left ul li {
+      display: flex;
+      gap: 1em;
+    }
+    section .sec-left ul li p {
+      color: blue;
+      line-height: 1.8;
+      font-style: normal;
+    }
+    section .sec-left ul li:nth-of-type(1) p {
+      color: red;
+      font-style: normal;
+    }
+    section .sec-left .Share {
+      display: flex;
+      justify-content: space-between;
+      line-height: 2;
+      padding: 0 2em 0 0;
+    }
+    section .sec-left .Share p {
+      font-weight: 700;
+      font-style: normal;
+      color: #000000;
+      font-size: 16px;
+      font-style: normal;
+    }
+    section .sec-left .Share .share-icons {
+      display: flex;
+      gap: 2em;
+    }
+    section .sec-left .sec-left-bottom {
+      padding: 1.3em 0 1em;
+      line-height: 2.2;
+    }
+    section .sec-left .sec-left-bottom button {
+      padding: 6px 15px;
+    }
+    section .sec-right {
+      width: 100%;
+      line-height: 2;
+    }
+    section .sec-right .sec-right-one {
+      border: 2px solid rgba(255, 192, 203, 0.418);
+      width: 100%;
+      padding: 1em;
+      line-height: 2.2;
+      background-color: rgba(255, 192, 203, 0.418);
+    }
+    section .sec-right .sec-right-one p {
+      font-size: 20px;
+      font-weight: 600;
+      font-style: normal;
+      color: #000000;
+    }
+    section .sec-right .sec-right-one .div11 {
+      padding: 0%;
+      border: none;
+      background-color: transparent;
+      display: flex;
+      gap: 10px;
+    }
+    section .sec-right .sec-right-one .div11 p {
+      font-size: 15px;
+      font-weight: 600;
+    }
+    section .sec-right .sec-right-two {
+      width: 100%;
+      border: none;
+      background-color: #ffffff;
+      display: flex;
+      padding: 1em 0 1em 3em;
+      align-items: center;
+      justify-content: space-between;
+    }
+    section .sec-right .sec-right-two .div22 {
+      display: flex !important;
+      gap: 7em !important;
+    }
+    section .sec-right .sec-right-two .div22 div {
+      display: block;
+      text-align: center;
+      line-height: 2;
+    }
+    section .sec-right .sec-right-two .div22 div p {
+      color: darkblue;
+      font-size: 16px;
+      font-weight: 600;
+      font-style: normal;
+    }
+    #ticket{
+      font-size: 12px;
+    }
+    section .sec-right .sec-right-two div {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    section .sec-right .sec-right-two div p {
+      color: #000;
+      font-size: 16px;
+      font-weight: 400;
+      font-style: normal;
+    }
+    section .sec-right .sec-right-three {
+      width: 100%;
+      border: none;
+      background-color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1em 2em;
+    }
+    section .sec-right .sec-right-three h2 {
+      color: #000000;
+      font-size: 24px;
+      font-weight: 700;
+      font-style: normal;
+    }
+    section .sec-right .sec-right-three div {
+      display: flex;
+      gap: 1em;
+    }
+    section .sec-right .sec-right-three div p {
+      color: darkblue;
+      font-size: 16px;
+      font-weight: 400;
+      font-style: normal;
+    }
+    section .sec-right .sec-right-four {
+      width: 100%;
+      background-color: #ffffff;
+    }
+    section .sec-right .sec-right-four .div33 {
+      display: flex;
+      align-items: center;
+      gap: 1em;
+      line-height: 1.5;
+    }
+    section .sec-right .sec-right-four .div33 div h6 {
+      font-size: 16px;
+      font-weight: bolder;
+      font-style: normal;
+      color: #000000;
+    }
+    section .sec-right .sec-right-four .div33 div p {
+      font-size: 16px;
+      font-weight: 400;
+      font-style: normal;
+      color: #000000;
+    }
+    section .sec-right .sec-right-four p {
+      font-size: 16px;
+      font-weight: 700;
+      font-style: normal;
+      color: #000000;
+    }
+    section .sec-right .sec-right-four p span {
+      color: darkblue;
+    }
+    .container{
+      width: 100%;
+      background-color: #095DCA;
+      padding: 13px 19px;
+      align-items: center;
+      position: sticky;
+  }
+  
+  .contain{
+      display: flex;
+      align-items: center;
+      padding: 5px 6px;
+      gap: 8em;
+  }
+  h1{
+      font-size: 28px;
+  }
+  .first li{
+     font-size: 12px;
+  }
+  .first{
+      gap: 2rem;
+  }
+  }
+  @media (max-width: 767px) {
+    section .sec-right .sec-right-one h6 {
+      font-size: 16px !important;
+    }
+    #disapper{
+      border: 1px solid black;
+      margin-top: 40px;
+      margin-bottom: 30px;
+      padding: 0 10px 10px 10px;
+      border-radius:10px;
+    }
+    section .sec-right .sec-right-two .div22 div:nth-child(1){
+      margin-top: -1em !important;
+      margin-left: -1em !important;
+    }
+    .block{
+      display :block;
+    }
+    .flex #email{
+      padding:1em 0.3em;
+      outline: none;
+      width: 100%;
+    }
+    .flex #name{
+      padding:1em 0.3em;
+      outline: none;
+      width: 100%;
+    }
+    .con{
+      margin-left:10em;
+    }
+    .h22{
+      font-size: 20px;
+    }
+    #btn{
+      gap: 4em;
+      display: flex;
+    }
+    button{
+      padding: 0.8em 2em;
+      font-size:12px;
+    }
+    .selct{
+      font-size: 20px;
+    }
+    li{
+     font-size:12px;
+    }
+    .blue{
+      padding: 2em 1em;
+    }
+    section .sec-left {
+      width: 100%;
+    }
+    section .sec-left .sec-left-introimg {
+      width: 100%;
+      height: 40vh;
+      margin: auto;
+    }
+    section .sec-left .impotp {
+      font-size: 16px;
+    }
+    section .sec-left ul li p {
+      font-size: 14px;
+    }
+    section .sec-left ul li:nth-of-type(1) p {
+      font-size: 14px;
+    }
+    section .sec-left .Share p {
+      font-size: 14px;
+    }
+    section .sec-left .sec-left-bottom {
+      padding: 0.5em 0 1em;
+      line-height: 2.2;
+    }
+    section .sec-left .sec-left-bottom button {
+      padding: 6px 15px;
+    }
+    section .sec-right .sec-right-one {
+      padding: 1em;
+    }
+    section .sec-right .sec-right-one p {
+      font-size: 18px;
+      font-weight: 600;
+      font-style: normal;
+      color: #000000;
+    }
+    section .sec-right .sec-right-one .div11 {
+      gap: 10px;
+    }
+    section .sec-right .sec-right-one .div11 p {
+      font-size: 14px;
+    }
+    section .sec-right .sec-right-two {
+      padding: 16px 2px;
+      display: block;
+      line-height: 4;
+    }
+    section .sec-right .sec-right-two .div22 {
+      display: flex !important;
+      justify-content: space-between !important;
+    }
+    section .sec-right .sec-right-two .div22 div {
+      line-height: 1.5;
+    }
+    section .sec-right .sec-right-two .div22 div p {
+      font-size: 12px;
+    }
+    section .sec-right .sec-right-two div {
+      gap: 8px;
+    }
+    section .sec-right .sec-right-two div p {
+      font-size: 12px;
+      padding-top: -8px;
+    }
+    section .sec-right .sec-right-three {
+      padding: 0 2px 16px 0;
+    }
+    section .sec-right .sec-right-three h2 {
+      font-size: 18px;
+    }
+    section .sec-right .sec-right-three div p {
+      font-size: 12px;
+    }
+    .first li{
+      display: none;
+   }
+  }
+  @media (max-width:400px) {
+    .con{
+      margin-left:6em;
+    }
+  }
+  @media (max-width: 330px) {
+    li{
+      font-size:10px;
+     }
+     .h22{
+      font-size: 18px;
+    }
+    .con{
+      margin-left:4em;
+    }
+  }

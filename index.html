@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>https://www.ticketmaster.com/concerts</title>
+    <link rel="stylesheet" href="./test.css">
+    <script src="https://kit.fontawesome.com/4c36529925.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="contain">
+                <h1>ticketmaster</h1>
+                <ul class="first">
+                    <li>Concert</li>
+                    <li>sports</li>
+                    <li>Arts & Theater</li>
+                    <li>Family</li>
+                    <li>VIP</li>
+                    <li>Deals</li>
+                </ul>
+            </div>
+        </div>
+    </header>
+   <div class="header">
+    <ul>
+        <li>My Account</li>
+        <li>My Events</li>
+        <li>Event Details</li>
+    </ul>
+    <h2>Event Details</h2>
+   </div>
+    <section>
+        <div class="sec-left">
+            <div class="border">
+                <img class="sec-left-introimg" src="./image/TS-CARDIFF-STADIUM-WEBSITE-EVENT-PAGE-1170px-wide-x-660px-high.jpg" alt="">
+                <p class="impotp">Taylor Swift: The Eras Tour</p>
+                <ul>
+                    <li>
+                        <i class="fa-regular fa-calendar" style="color: #000000;"></i>
+                        <p>Fri - Oct 18, 2024 - 07:00</p>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-location-dot" style="color: #000000;"></i>
+                        <p>Hard Rock Stadium - Miami Gardens FL</p>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-address-book" style="color: #000000;"></i>
+                        <p>347 Don Shula Drive Miami, Fl 33056</p>
+                    </li>
+                </ul>
+                <div class="Share">
+                    <p>Share where you're Going</p>
+                    <div class="share-icons">
+                        <i class="fa-brands fa-facebook-f" style="color: #000000;"></i>
+                        <i class="fa-brands fa-twitter" style="color: #000000;"></i>
+                        <i class="fa-solid fa-box" style="color: #000000;"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="sec-left-bottom">
+                <h4>Need Help With Your Order?</h4>
+                <p>Use Chats to quickly find the answers you need</p>
+                <button>chat <i class="fa-solid fa-comment" style="color: #005eff;"></i></button>
+            </div>
+        </div>
+        <div class="sec-right">
+            <h2 class="h22">STATUS: Your Tickets Are Valid</h2>
+            <div class="sec-right-one" style="background-color: #C4A5CC;">
+                <h6>Your phone is your Tickets</h6>
+                <div class="div11">
+                    <div class="circle"><i class="fa-solid fa-mobile-screen" style="color: #000000;"></i></div>
+                    <p>Sign in to Ticketmaster on your phone and go to my Tickets. Your tickets will be there for you</p>
+                </div>
+            </div>
+      <div id="show">
+        <div id="disapper">
+            <div class="sec-right-two">
+                <div class="div22" style="margin-left: -2.7em;">
+                    <div>
+                        <i class="fa-regular fa-paper-plane" style="color: #0d63f8;"></i>
+                        <p onclick="displaynone()" id="ticket">Tranfer Tickets</p>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-arrows-rotate" style="color: #0d63f8;"></i>
+                        <p>sell Tickets</p>
+                    </div>
+                </div>
+                <div>
+                    <i class="fa-solid fa-exclamation fa-2xs" style="color: #0754da;"></i>
+                    <p>How do I manage my tickets</p>
+                </div>
+            </div>
+            <div class="sec-right-three">
+                <h2>My SafeTix"(2)</h2>
+                <div>
+                    <i class="fa-solid fa-street-view" style="color: #000000;"></i>
+                    <p>view more</p>
+                </div>
+            </div>
+            <div class="sec-right-four">
+                <div class="div33">
+                    <img src="./image/ticket-1326548872247626645.png" alt="" style="width: 2%;">
+                    <div>
+                        <h6>Sec 114, Row 1, Seat 6</h6>
+                    </div>
+                </div>
+                <div class="div33">
+                    <img src="./image/ticket-1326548872247626645.png" alt="" style="width: 2%;">
+                    <div>
+                        <h6>Sec 114, Row 1, Seat 7</h6>
+                    </div>
+                </div><br>
+                <p>Can't find something you've purchased? Check your order confirmation email or <span>View Your Order</span></p>
+            </div>
+        </div>
+
+        <div id="appaer">
+            <div class="blue">
+               <ol>
+                    <li>1. Select Tickets to Send</li>
+                    <li>2. Enter Recipient Details</li>
+               </ol>
+            </div>
+            <h2 class="selct">
+                Selected Tickets
+            </h2>
+            <div id="btn">
+                <button id="sall" onclick="selectall()">Select All</button>
+                <button id="dall" onclick="deleteall()">Delete All</button>
+            </div>
+
+            <div class="list">
+                <div class="lit">
+                    <input type="checkbox"  class="checkbox">
+                    <img src="./image/ticket-1326548872247626645.png" alt="" style="width: 2%;">
+                    <h2>Sec 114, Row 1, Seat 6</h2>
+                </div>
+                <div class="lit">
+                    <input type="checkbox"  class="checkbox">
+                    <img src="./image/ticket-1326548872247626645.png" alt="" style="width: 2%;">
+                    <h2>Sec 114, Row 1, Seat 7</h2>
+                </div>
+                <div class="lit">
+                    <input type="checkbox"  class="checkbox">
+                    <img src="./image/ticket-1326548872247626645.png" alt="" style="width: 2%;">
+                    <h2>Sec 114, Row 1, Seat 8</h2>
+                </div>
+                <div class="lit">
+                    <input type="checkbox"  class="checkbox">
+                    <img src="./image/ticket-1326548872247626645.png" alt="" style="width: 2%;">
+                    <h2>Sec 114, Row 1, Seat 9</h2>
+                </div>
+            </div>
+
+            <div class="con">
+                <button onclick="back1()">Cancel</button>
+                <button id="cont-btn" onclick="continu()">Continue</button>
+            </div>
+        </div>
+        
+        <div id="twoaapaer">
+            <div class="blue">
+                <ol>
+                     <li>1. Select Tickets to Send</li>
+                     <li>2. Enter Recipient Details</li>
+                </ol>
+             </div>
+             <h2 class="selct">
+                Recipient Details
+            </h2>
+            <div class="block">
+
+                    <div class="flex">
+                        <h2>Name</h2>
+                        <input type="text" id="name" name="name"><br><br>
+                    </div>
+                    <div class="flex">
+                        <h2>Email Address</h2>
+                        <input type="text" id="email" name="email"><br><br>
+                    </div>
+
+            </div>
+            <div class="last">
+                <h2>Add a Note (Optaional)</h2>
+                <input type="text"  id="text">
+            </div>
+            <div class="con">
+                <button onclick="back2()">Cancel</button>
+                <button id="cont-btn" onclick="send()">Send</button>
+            </div>
+        </div>
+
+      </div>
+        </div>
+    </section>
+</body>
+<script src="./text.js"></script>
+</html>
